@@ -11,7 +11,8 @@ export const evaluate = (a, b, operator) => {
         return num1 * num2
       case "/":
         if (num2 === 0) {
-          throw new Error("Division by zero")
+          //throw new Error("Division by zero")
+            return "Division by zero error"
         }
         return num1 / num2
       default:
